@@ -1,0 +1,74 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    /* background-color: #0cbaba; */
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+
+}
+
+.chat-container{
+    max-width: 50%;
+    margin: 30px auto;
+    
+    border-radius: 10px 10px 10px 10px;
+    padding: 2rem;
+}
+
+.chat-window{
+    padding: 14px 0;
+    margin: 0 20px;
+    color: #555
+}
+
+.message-window{
+    width: 100%;
+}
+
+.user-message input{
+    margin: .8rem 0;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.output{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.right{
+    justify-content: end;
+    margin-top: .5rem;
+    text-align: right;
+}
+
+.output p{
+    width: 100%;
+    color: #aaa;
+}
+
+.actions p{
+    padding: 14px 0;
+    margin: 0 20px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #555;
+}
+
+input{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 0;
+    background-color: #eee;
+    display: block;
+    width: 100%;
+}
+
+button{
+    background-color: #575ed8;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 20px 20px 20px 20px;
+}

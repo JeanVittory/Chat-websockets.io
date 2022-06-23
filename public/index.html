@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Chat socket.io</title>
+  </head>
+  <body>
+    <div class="chat-container">
+      <section class="chat-window">
+        <div class="output"></div>
+        <div class="actions"></div>
+      </section>
+      <section class="user-message">
+        <input
+          type="text"
+          id="username"
+          placeholder="User"
+          class="user-message"
+        />
+        <input type="text" id="message" placeholder="Message"/>
+        <button class="send">Send</button>
+      </section>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+    <script src="./js/chat.js"></script>
+  </body>
+</html>
