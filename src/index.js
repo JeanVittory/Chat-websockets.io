@@ -16,5 +16,3 @@ io.on("connection", (socket) =>{
         socket.broadcast.emit("chat:typing", data)
     })
 })
-
-export default serverToSocket
